@@ -1,0 +1,17 @@
+//
+// Widget Area
+//======================================
+
+.site-header .widget-area {
+  float: right;
+  text-align: right;
+  width: $header-right--width;
+
+  @include media($breakpoint__screen-size--large) {
+    width: $header-right--width--large-screen;
+  }
+  @include media($breakpoint__screen-size--medium) {
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,48 @@
+//
+// Defaults
+//======================================
+
+a,
+button,
+input:focus,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+textarea:focus,
+.button,
+.gallery img {
+  @include transition( all 0.1s ease-in-out );
+}
+
+a {
+  color: $link-color;
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+  color: $link--hover-color ;
+  text-decoration: none;
+}
+
+p {
+  margin: 0 0 28px;
+  padding: 0;
+}
+
+hr {
+  border: 0;
+  border-collapse: collapse;
+  border-top: 1px solid $hr--border-color;
+  clear: both;
+  margin: 1em 0;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+:target {
+  background-color: $gray--lighter;
+}

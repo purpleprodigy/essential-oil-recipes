@@ -1,0 +1,8 @@
+//
+// Archive Base
+//======================================
+
+.archive-description .entry-title,
+.archive-title {
+  @include rem(font-size, $archive-title--font-size );
+}

@@ -1,0 +1,15 @@
+//
+// Captions
+//======================================
+
+.wp-caption-text {
+  @include rem(font-size, $caption--font-size );
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+}
+
+.entry-content p.wp-caption-text {
+  margin-bottom: 0;
+}
+

@@ -1,0 +1,77 @@
+//
+// Typography Variables
+//======================================
+
+// Common Fonts
+$font-family--source-sans-pro: 'Source Sans Pro', sans-serif;
+$font-family--muli: 'Muli', sans-serif;
+$font-family--lato: Lato, sans-serif;
+$font-family--helvetica: Helvetica, arial, sans-serif;
+$font-family--opensans: 'Open Sans', Helvetica, Arial, sans-serif;
+$font-family--serif: Georgia, Times, serif;
+
+// Base
+$html--font-size: 62.5%;
+
+$base--font-family: $font-family--source-sans-pro;
+$base--font-size: 20px;
+$base--font-size--small-screen: 18px;
+$base__div--font-size: 2rem;
+$base__div--font-size--small-screen: 1.8rem;
+$base--line-height: 1.625;
+
+// Headings
+$headings--font-family: $font-family--source-sans-pro;
+$headings--line-height: 1.2;
+$h1--font-size: floor(modular-scale(6, $base--font-size, $major-second));
+$h2--font-size: floor(modular-scale(5, $base--font-size, $major-second));
+$h3--font-size: floor(modular-scale(4, $base--font-size, $major-second));
+$h4--font-size: floor(modular-scale(3, $base--font-size, $major-second));
+$h5--font-size: floor(modular-scale(2, $base--font-size, $major-second));
+$h6--font-size: floor(modular-scale(1, $base--font-size, $major-second));
+
+// Navigation
+$nav--font-size: 16px;
+$submenu--font-size: 14px;
+$primary-nav--font-size: 14px;
+$archive-pagination--font-size: 16px;
+
+// Header
+$site-title--font-size: 30px;
+$site-description--font-size: 16px;
+
+// Footer
+$site-footer--font-size: 16px;
+$footer-widget--font-size: 18px;
+
+// Entry
+$entry-title--font-size: $h1--font-size;
+$entry-meta--font-size: 16px;
+$entry-header__entry-meta--font-size: 16px;
+$entry-footer__entry-meta--font-size: 16px;
+
+// Elements
+$blockquote--font-size: 30px;
+$input--font-size: 18px;
+$button--font-size: 16px;
+
+// Widgets
+$widget-title--font-size: 18px;
+$featured-content__entry-title--font-size: 20px;
+$sidebar--font-size: 16px;
+
+// Plugins
+$enews--font-size: 16px;
+
+// Comments
+$comments--font-size: 16px;
+
+// General Components
+$breadcrumb--font-size: 16px;
+$author-box__title--font-size: 20px;
+$author-box--font-size: 18px;
+$after-entry--font-size: 18px;
+$archive-title--font-size: 20px;
+$archive-description--font-size: 18px;
+$caption--font-size: 14px;
+

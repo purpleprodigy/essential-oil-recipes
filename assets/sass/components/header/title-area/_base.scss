@@ -1,0 +1,19 @@
+//
+// Title Area Base Styles
+//======================================
+
+.title-area {
+  float: left;
+  padding: 10px 0;
+  width: $title-area--width;
+
+    @include media( $breakpoint__screen-size--medium ) {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-full-width & {
+    float: none;
+    width: 100%;
+  }
+}

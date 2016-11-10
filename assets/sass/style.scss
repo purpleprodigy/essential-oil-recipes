@@ -1,0 +1,26 @@
+/*!
+	Theme Name: Essential Oil Recipes
+	Theme URI: http://www.essential-oil-recipes.com
+	Description: Genesis-powered Child Theme for the Essential Oil Recipes website.
+	Author: Rose Cox
+	Author URI: http://www.purpleprodigy.com/
+
+	Version: 1.0.0
+
+	Template: genesis
+	Template Version: 2.2.3
+
+	License: GPL-2.0+
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+	Text Domain: essential-oil-recipes
+*/
+@import 'bourbon';
+@import 'neat';
+@import '../../node_modules/sass-rem/rem';
+
+@import 'utilities/index';
+@import 'base/index';
+@import 'layouts/index';
+@import 'components/index';
+@import 'plugins/index';
+@import 'views/index';

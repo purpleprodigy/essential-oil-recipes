@@ -1,0 +1,12 @@
+//
+// Widget Title
+//======================================
+
+.widget-title {
+  @include rem(font-size, $widget-title--font-size);
+  margin-bottom: 20px;
+  .sidebar & a {
+    color: $widget-title--link-color;
+    text-decoration: none;
+  }
+}

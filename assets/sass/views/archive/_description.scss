@@ -1,0 +1,19 @@
+//
+// Archive Description
+//======================================
+
+.archive-description {
+  background-color: $archive-description--background-color;
+  @include rem(font-size, $archive-description--font-size );
+  margin-bottom: 40px;
+  padding: 60px;
+
+  @include media( $breakpoint__screen-size--small ) {
+    padding: 30px;
+    margin-bottom: 5%;
+  }
+}
+
+.archive-description p:last-child {
+  margin-bottom: 0;
+}

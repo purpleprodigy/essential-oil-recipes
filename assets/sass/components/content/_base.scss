@@ -1,0 +1,14 @@
+//
+// Main Entry Article
+//======================================
+
+.entry {
+  background-color: $entry--background-color;
+  margin-bottom: 40px;
+  padding: 70px 80px;
+
+    @include media( $breakpoint__screen-size--small ) {
+    padding: 30px;
+    margin-bottom: 5%;
+  }
+}
