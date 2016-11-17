@@ -2,13 +2,13 @@
 /**
  * Enqueue Scripts and Styles handler.
  *
- * @package     PurpleProdigy\Developers
+ * @package     EssentialOilRecipes
  * @since       1.0.0
  * @author      Purple Prodigy
  * @link        http://www.purpleprodigy.com
  * @licence     GNU General Public License 2.0+
  */
-namespace PurpleProdigy\Developers;
+namespace EssentialOilRecipes;
 
 add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_assets' );
 /**
