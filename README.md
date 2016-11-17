@@ -1,8 +1,7 @@
-# Genesis Developer's Starter Child Theme
+# Essential Oil Recipes Child Theme
 
-This is a developer-friendly starter child theme for the Genesis framework by Purple Prodigy. It includes a modular architectures, Sass, gulp, bourbon, neat and Composer. It is the starting child theme for all projects.
+This is a custom child theme for the Genesis framework built by Purple Prodigy. It includes a modular architectures, Sass, gulp, bourbon, neat and Composer. 
 
-Note: This is a starter theme meant to be extended and customised. It is based loosely on the Genesis Sample Child Theme.
 # Features
 
 This theme includes the following features:
