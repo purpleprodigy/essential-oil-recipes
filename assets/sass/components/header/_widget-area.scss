@@ -5,10 +5,10 @@
 .site-header .widget-area {
   float: right;
   text-align: right;
-  width: $header-right--width;
+  //width: $header-right--width;
 
   @include media($breakpoint__screen-size--large) {
-    width: $header-right--width--large-screen;
+    //width: $header-right--width--large-screen;
   }
   @include media($breakpoint__screen-size--medium) {
     width: 100%;

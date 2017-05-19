@@ -5,7 +5,7 @@
 .title-area {
   float: left;
   padding: 10px 0;
-  width: $title-area--width;
+  //width: $title-area--width;
 
     @include media( $breakpoint__screen-size--medium ) {
     width: 100%;

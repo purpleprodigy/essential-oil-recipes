@@ -6,7 +6,7 @@
 
   .title-area {
     margin: 0 auto;
-    max-width: $title-area--width;
+    //max-width: $title-area--width;
     padding: 0;
 
       @include media( $breakpoint__screen-size--medium ) {

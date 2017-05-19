@@ -33,6 +33,7 @@ function load_nonadmin_files() {
 		'structure/menu.php',
 		'structure/post.php',
 //		'structure/sidebar.php',
+		'widgets/widget-areas.php'
 	);
 	load_specified_files( $filenames );
 }
