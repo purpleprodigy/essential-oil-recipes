@@ -6,6 +6,8 @@
 $white: #fff;
 $black: #000;
 $red: #c3251d;
+$blue: #3c0feb;
+$green: #3a940e;
 $gray--lightest: #eee;
 $gray--lighter: #ddd;
 $gray--light: #ccc;
@@ -44,12 +46,13 @@ $table-body--border-color: $gray--light;
 $table-cell--border-color: $gray--light;
 
 // Header
-$site-title--link-color: $gray;
+$site-title--link-color: $blue;
+$site-description-color: $green;
 $site-header--background-color: $white;
 
 // Navigation
-$nav--link-color: $gray;
-$nav--hover-color: $red;
+$nav--link-color: $blue;
+$nav--hover-color: $green;
 
 $submenu--border-color: $gray--light;
 $submenu--link-background-color: $white;

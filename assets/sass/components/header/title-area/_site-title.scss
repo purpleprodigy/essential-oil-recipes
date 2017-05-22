@@ -3,8 +3,8 @@
 //======================================
 
 .site-title {
+  font-family: $header;
   @include rem(font-size, $site-title--font-size );
-  font-weight: 700;
   line-height: 1.2;
   margin-bottom: 0;
 

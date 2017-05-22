@@ -74,19 +74,12 @@ function add_theme_supports () {
 			'skip-links'
 		),
 		'genesis-responsive-viewport' => null,
-//		'custom-header' => array(
-//			'width'           => 600,
-//			'height'          => 160,
-//			'header-selector' => '.site-title a',
-//			'header-text'     => false,
-//			'flex-height'     => true,
-//		),
 		'custom-background' => null,
 		//'genesis-after-entry-widget-area' => null,
 		'genesis-footer-widgets' => 3,
 		'genesis-menus' => array(
 			'primary'   => __( 'After Header Menu', CHILD_TEXT_DOMAIN ),
-			'secondary' => __( 'Footer Menu', CHILD_TEXT_DOMAIN )
+		//	'secondary' => __( 'Footer Menu', CHILD_TEXT_DOMAIN )
 		)
 	);
 	foreach ( $config as $feature => $args ) {
