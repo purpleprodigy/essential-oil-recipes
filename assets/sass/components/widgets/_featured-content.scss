@@ -13,5 +13,6 @@
   }
   .entry-title {
     @include rem(font-size, $featured-content__entry-title--font-size );
+    text-align: center;
   }
 }

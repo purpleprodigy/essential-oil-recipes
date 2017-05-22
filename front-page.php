@@ -63,8 +63,8 @@ function eor_front_page_widgets() {
 	) );
 
 	genesis_widget_area( 'front-page-2', array(
-		'before' => '<div id="front-page-2" class="front-page-2"><div class="wrap">',
-		'after'  => '</div></div>',
+		'before' => '<div id="front-page-2" class="front-page-2"><div class="flexible-widgets widget-area widget-fourths"><div class="wrap">',
+		'after'  => '</div></div></div>',
 	) );
 	genesis_widget_area( 'front-page-3', array(
 		'before' => '<div id="front-page-3" class="front-page-3"><div class="wrap">',

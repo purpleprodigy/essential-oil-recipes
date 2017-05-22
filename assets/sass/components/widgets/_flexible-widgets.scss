@@ -1,0 +1,45 @@
+/* Flexible Widgets
+--------------------------------------------- */
+
+//.front-page .flexible-widgets {
+//  margin-left: auto;
+//  margin-right: auto;
+//  padding-bottom: 100px;
+//  padding-top: 140px;
+//}
+
+.flexible-widgets .wrap {
+  max-width: 1280px;
+  padding: 40px 0;
+}
+
+.flexible-widgets.widget-area .widget {
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 40px;
+}
+
+.flexible-widgets.widget-full .widget,
+.flexible-widgets.widget-halves.uneven .widget:last-of-type {
+  float: none;
+  width: 100%;
+}
+
+.flexible-widgets.widget-fourths .widget {
+  width: 25%;
+}
+
+.flexible-widgets.widget-halves .widget {
+  width: 50%;
+}
+
+.flexible-widgets.widget-thirds .widget {
+  width: 33.33%;
+}
+
+.flexible-widgets.widget-halves .widget:nth-child(odd),
+.flexible-widgets.widget-thirds .widget:nth-child(3n+1),
+.flexible-widgets.widget-fourths .widget:nth-child(4n+1) {
+  clear: left;
+}

@@ -19,23 +19,23 @@ $gray: #333;
 
 $base-color: $gray;
 
-$link-color: $red;
-$link--hover-color: $gray;
+$link-color: $blue;
+$link--hover-color: $green;
 
-$body--background-color: $gray--light;
+$body--background-color: $white;
 
 // Elements
-$hr--border-color: $gray--light;
+$hr--border-color: $blue;
 
 // Form Elements
 $input--background-color: $white;
-$input--border-color: $gray--lighter;
+$input--border-color: $blue;
 $input--color: $gray;
-$input--focus-border-color: $gray--medium-light;
+$input--focus-border-color: $green;
 
 // Buttons
-$button--background-color: $gray;
-$button--hover-background-color: $red;
+$button--background-color: $blue;
+$button--hover-background-color: $green;
 $button-color: $white;
 $button--hover-color: $white;
 $button--disabled-background-color: $gray--light;
@@ -54,11 +54,11 @@ $site-header--background-color: $white;
 $nav--link-color: $blue;
 $nav--hover-color: $green;
 
-$submenu--border-color: $gray--light;
+$submenu--border-color: $blue;
 $submenu--link-background-color: $white;
 
 $primary-nav--background-color: $white;
-$primary-nav--border-color: $gray--light;
+$primary-nav--border-color: $blue;
 $primary-nav--link-color: $nav--link-color;
 
 $secondary-nav--background-color: $white;
@@ -72,14 +72,14 @@ $js-nav--focus-color: $red;
 $nav-toggle--background-color: $white;
 $nav-toggle-color: $gray;
 
-$archive-pagination--background-color: $white;
-$archive-pagination-color: $gray;
-$archive-pagination-hoverBackgroundColor: $red;
+$archive-pagination--background-color: $blue;
+$archive-pagination-color: $white;
+$archive-pagination-hoverBackgroundColor: $green;
 $archive-pagination--hover-color: $white;
 
 // Entry
 $entry-title--link-color: $gray;
-$entry-title--hover-color: $red;
+$entry-title--hover-color: $blue;
 
 $entry--background-color: $white;
 
@@ -89,7 +89,7 @@ $entry-content__code--background-color: $gray;
 $entry-content__code--border-color: $gray--light;
 
 // Widgets
-$widget-title--link-color: $gray;
+$widget-title--link-color: $blue;
 $widget--background-color: $white;
 
 // Plugins
@@ -103,7 +103,7 @@ $enews__submit-button--hover-color: $gray;
 
 // Footer
 $site-footer--background-color: $white;
-$site-footer--border-color: $gray--light;
+$site-footer--border-color: $blue;
 $footer-widgets--background-color: $white;
 
 // Comments

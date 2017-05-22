@@ -97,8 +97,8 @@ function add_theme_supports () {
 function adds_new_image_sizes () {
 	$config = array(
 		'featured-image' => array(
-			'width' => 720,
-			'height' => 400,
+			'width' => 300,
+			'height' => 250,
 			'crop' => true,
 		),
 	);
