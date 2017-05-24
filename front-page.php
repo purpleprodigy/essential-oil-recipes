@@ -31,7 +31,7 @@ function render_front_page() {
 		}
 
 		//* Force full width content layout
-		add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
+	//	add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
 
 		//* Remove After Header
 //		if ( is_active_sidebar( 'front-page-1' ) ) {

@@ -5,7 +5,7 @@
 .entry {
   background-color: $entry--background-color;
   margin-bottom: 40px;
-  padding: 70px 80px;
+  padding: 30px 0;
 
     @include media( $breakpoint__screen-size--small ) {
     padding: 30px;

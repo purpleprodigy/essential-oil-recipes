@@ -2,8 +2,11 @@
 // Soliloquy
 //======================================
 
-.soliloquy-container .soliloquy-pager, .soliloquy-container .soliloquy-next, .soliloquy-container .soliloquy-prev
-{
+.soliloquy-container .soliloquy-caption-inside {
+  font-family: $soliloquy--font-family;
+}
+
+.soliloquy-container .soliloquy-pager, .soliloquy-container .soliloquy-next, .soliloquy-container .soliloquy-prev {
   display: none !important;
 }
 

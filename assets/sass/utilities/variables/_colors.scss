@@ -44,6 +44,7 @@ $button--disabled-color: $gray--medium;
 // Tables
 $table-body--border-color: $gray--light;
 $table-cell--border-color: $gray--light;
+$table-row--alternate-color: $gray--lightest;
 
 // Header
 $site-title--link-color: $blue;
@@ -54,11 +55,11 @@ $site-header--background-color: $white;
 $nav--link-color: $blue;
 $nav--hover-color: $green;
 
-$submenu--border-color: $blue;
+$submenu--border-color: $gray--lightest;
 $submenu--link-background-color: $white;
 
 $primary-nav--background-color: $white;
-$primary-nav--border-color: $blue;
+$primary-nav--border-color: $gray--lightest;
 $primary-nav--link-color: $nav--link-color;
 
 $secondary-nav--background-color: $white;
@@ -103,7 +104,7 @@ $enews__submit-button--hover-color: $gray;
 
 // Footer
 $site-footer--background-color: $white;
-$site-footer--border-color: $blue;
+$site-footer--border-color: $gray--lightest;
 $footer-widgets--background-color: $white;
 
 // Comments
