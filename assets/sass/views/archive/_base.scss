@@ -5,4 +5,5 @@
 .archive-description .entry-title,
 .archive-title {
   @include rem(font-size, $archive-title--font-size );
+  margin-bottom: 40px;
 }

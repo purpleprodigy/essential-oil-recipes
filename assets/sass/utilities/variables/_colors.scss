@@ -79,12 +79,12 @@ $archive-pagination-hoverBackgroundColor: $green;
 $archive-pagination--hover-color: $white;
 
 // Entry
-$entry-title--link-color: $gray;
-$entry-title--hover-color: $blue;
+$entry-title--link-color: $blue;
+$entry-title--hover-color: $green;
 
 $entry--background-color: $white;
 
-$entry-footer__meta--border-color: $gray--light;
+$entry-footer__meta--border-color: $gray--lightest;
 
 $entry-content__code--background-color: $gray;
 $entry-content__code--border-color: $gray--light;
@@ -92,6 +92,7 @@ $entry-content__code--border-color: $gray--light;
 // Widgets
 $widget-title--link-color: $blue;
 $widget--background-color: $white;
+$widget--border-color: $blue;
 
 // Plugins
 $enews--color: $white;
@@ -106,6 +107,7 @@ $enews__submit-button--hover-color: $gray;
 $site-footer--background-color: $white;
 $site-footer--border-color: $gray--lightest;
 $footer-widgets--background-color: $white;
+$footer-widgets--border-color: $blue;
 
 // Comments
 $comments--background-color: $white;

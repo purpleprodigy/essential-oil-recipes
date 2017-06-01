@@ -4,9 +4,12 @@
 
 .sidebar {
   @include rem(font-size, $sidebar--font-size );
-  margin-bottom: 40px;
+  margin: 30px 0 40px;
   .widget {
     background-color: $widget--background-color;
+    border: 1px solid $widget--border-color;
+    padding: 10px;
+    margin-bottom: 60px;
   }
     @include media( $breakpoint__screen-size--small ) {
     margin-bottom: 5%;

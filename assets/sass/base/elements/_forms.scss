@@ -9,8 +9,8 @@ textarea {
   color: $input--color;
   @include rem(font-size, $input--font-size);
   font-weight: 400;
-  padding: 16px;
-  width: 100%;
+  padding: 7px;
+  width: 75%;
 }
 
 input:focus,

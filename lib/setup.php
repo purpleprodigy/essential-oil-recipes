@@ -43,6 +43,23 @@ function unregister_layouts() {
 		genesis_unregister_layout( $layout );
 	}
 }
+add_filter( 'genesis_post_info', __NAMESPACE__ . '\modify_post_info' );
+/**
+ * Modify post info to remove date and show on blog posts only, not downloads (EDD).
+ *
+ * @since 1.0.0
+ *
+ * @param $post_info
+ *
+ * @return string
+ */
+function modify_post_info($post_info) {
+	if ( in_category( 'aromatherapy' ) ) {
+		$post_info = 'Posted by [post_author_posts_link] [post_comments] [post_edit]';
+
+		return $post_info;
+	}
+}
 
 /**
  * Unregister Genesis callbacks.  We do this here because the child theme loads before Genesis.
@@ -53,6 +70,7 @@ function unregister_layouts() {
  */
 function unregister_genesis_callbacks() {
 	unregister_menu_callbacks();
+	//unregister_post_callbacks();
 }
 
 /**
@@ -76,7 +94,7 @@ function add_theme_supports () {
 		'genesis-responsive-viewport' => null,
 		'custom-background' => null,
 		//'genesis-after-entry-widget-area' => null,
-		'genesis-footer-widgets' => 3,
+		'genesis-footer-widgets' => 1,
 		'genesis-menus' => array(
 			'primary'   => __( 'After Header Menu', CHILD_TEXT_DOMAIN ),
 		//	'secondary' => __( 'Footer Menu', CHILD_TEXT_DOMAIN )
@@ -99,6 +117,11 @@ function adds_new_image_sizes () {
 		'featured-image' => array(
 			'width' => 300,
 			'height' => 250,
+			'crop' => true,
+		),
+		'edd-image' => array(
+			'width' => 200,
+			'height' => 315,
 			'crop' => true,
 		),
 	);
@@ -157,4 +180,33 @@ function get_theme_settings_defaults() {
 		'posts_nav'                 => 'numeric',
 		'site_layout'               => 'content-sidebar',
 	);
+}
+//* Modify the length of post excerpts
+
+add_filter( 'excerpt_length', __NAMESPACE__ . '\change_excerpt_length' );
+/**
+ * Change the length of the post excerpt on the blog archive page.
+ *
+ * @since 1.0.0
+ *
+ * @param $length
+ *
+ * @return int
+ */
+function change_excerpt_length( $length ) {
+	return 70;
+}
+
+// Add Read More Link to Excerpts
+add_filter('excerpt_more', __NAMESPACE__ . '\get_read_more_link');
+add_filter( 'the_content_more_link',  __NAMESPACE__ . '\get_read_more_link' );
+/**
+ * Add a read more link to post excerpts on the blog archive page.
+ *
+ * @since 1.0.0
+ *
+ * @return string
+ */
+function get_read_more_link() {
+	return '...&nbsp;<a href="' . get_permalink() . '">Continue Reading</a>';
 }

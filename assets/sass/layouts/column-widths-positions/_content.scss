@@ -30,9 +30,14 @@
   .content-sidebar-sidebar &,
   .sidebar-content-sidebar & {
     float: left;
+    @include media( $breakpoint__screen-size--small ) {
+     width: 100%;
+    }
   }
 
   .full-width-content & {
     width: 100%;
   }
 }
+
+

@@ -1,0 +1,5 @@
+//* Modify the length of post excerpts
+add_filter( 'excerpt_length', __NAMESPACE__ . '\change_excerpt_length' );
+function change_excerpt_length( $length ) {
+	return 80;
+}

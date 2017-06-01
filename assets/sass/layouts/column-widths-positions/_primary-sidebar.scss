@@ -6,8 +6,8 @@
   float: right;
   width: $primary-sidebar--width;
 
-  @include media( $breakpoint__screen-size--larger ) {
-    width: $primary-sidebar--width;
+  @include media( $breakpoint__screen-size--large ) {
+    width: 100%;
   }
 
   .sidebar-content &,

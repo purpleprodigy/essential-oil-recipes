@@ -2,6 +2,103 @@
 // Easy Digital Downloads
 //======================================
 
+.entry-content .edd_download {
+  float: left;
+}
+
 h3.edd_download_title {
   display: none;
+}
+
+.edd_download_columns_0 .edd_download, .edd_download_columns_3 .edd_download {
+  width: 33%;
+}
+
+.edd_download_purchase_form .edd_download_quantity_wrapper {
+  margin: 0 0 .5em;
+  .edd-item-quantity {
+    width: 75px;
+  }
+}
+
+.edd_download_inner {
+  padding: 0 8px 8px;
+  margin: 0 0 10px;
+}
+
+#edd-purchase-button, .edd-submit, input[type=submit].edd-submit {
+  padding: 6px 12px;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+#edd_checkout_wrap tbody tr:nth-child(odd) {
+  background-color: $white;
+}
+
+#edd_checkout_cart {
+  .edd_cart_header_row th {
+    background: $gray--lightest;
+    padding: 1.387em;
+  }
+  td.edd_cart_actions, td:last-child, th.edd_cart_actions, th.edd_cart_total, th:last-child {
+    text-align: right;
+  }
+  .edd_cart_header_row th {
+    padding: 2px;
+  }
+  input.edd-item-quantity {
+    width: 3em;
+  }
+  td {
+    line-height: 25px;
+    vertical-align: middle;
+    img {
+      float: left;
+      margin: 0 8px 0 0;
+    }
+  }
+}
+
+.edd_price_options.edd_single_mode {
+  ul {
+    margin: 0 0 20px 0;
+  }
+  li {
+    list-style: none;
+  }
+}
+
+.edd_download_buy_button {
+  width: 250px;
+}
+
+.entry-content {
+  .edd_download {
+    @include media($breakpoint__screen-size--small) {
+      float: none;
+      width: 100%;
+    }
+    .edd_download_inner {
+      @include media($breakpoint__screen-size--small) {
+        margin: 30px;
+      }
+    }
+  }
+
+  ul.edd-cart {
+    @include media($breakpoint__screen-size--small) {
+      margin-left: 0;
+      margin-right: 80px;
+    }
+  }
+}
+
+li.cart_item.edd-cart-meta.edd_total, li.cart_item.edd_checkout {
+  list-style: none;
+}
+
+.entry-content ul > li.edd-cart-item {
+  margin-left: 20px;
 }

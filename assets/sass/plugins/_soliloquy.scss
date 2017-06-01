@@ -2,14 +2,18 @@
 // Soliloquy
 //======================================
 
-.soliloquy-container .soliloquy-caption-inside {
-  font-family: $soliloquy--font-family;
-}
-
-.soliloquy-container .soliloquy-pager, .soliloquy-container .soliloquy-next, .soliloquy-container .soliloquy-prev {
-  display: none !important;
-}
-
-.soliloquy-container .soliloquy-caption-inside {
-  font-size: $soliloquy--font-size !important;
+.soliloquy-container {
+  .soliloquy-caption-inside {
+    font-family: $soliloquy--font-family;
+    font-size: $soliloquy--font-size !important;
+    text-shadow: none !important;
+    font-weight: bold;
+  }
+  .soliloquy-caption {
+    padding-bottom: 5px !important;
+    background: rgba(0, 0, 0, 0.3) !important;
+  }
+  .soliloquy-pager, .soliloquy-next, .soliloquy-prev {
+    display: none !important;
+  }
 }

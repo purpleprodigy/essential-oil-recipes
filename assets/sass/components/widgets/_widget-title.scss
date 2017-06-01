@@ -4,7 +4,12 @@
 
 .widget-title {
   @include rem(font-size, $widget-title--font-size);
-  margin-bottom: 20px;
+  background-color: #3c0feb;
+  color: #fff;
+  margin-bottom: 30px;
+  margin-top: -35px;
+  padding: 15px;
+  text-align: center;
   .sidebar & a {
     color: $widget-title--link-color;
     text-decoration: none;

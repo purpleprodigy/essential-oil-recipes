@@ -25,4 +25,7 @@
     background-color: $entry-content__code--background-color;
     color: $entry-content__code--border-color;
   }
+  h3 a {
+    text-decoration: none;
+  }
 }

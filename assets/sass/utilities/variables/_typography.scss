@@ -17,7 +17,7 @@ $font-family--emily: 'Emilys Candy', cursive;
 $html--font-size: 62.5%;
 
 $base--font-family: $font-family--opensans;
-$base--font-size: 20px;
+$base--font-size: 18px;
 $base--font-size--small-screen: 18px;
 $base__div--font-size: 2rem;
 $base__div--font-size--small-screen: 1.8rem;
@@ -46,13 +46,13 @@ $site-description--font-size: 16px;
 
 // Footer
 $site-footer--font-size: 16px;
-$footer-widget--font-size: 18px;
+$footer-widget--font-size: 16px;
 
 // Entry
 $entry-title--font-size: $h1--font-size;
-$entry-meta--font-size: 16px;
-$entry-header__entry-meta--font-size: 16px;
-$entry-footer__entry-meta--font-size: 16px;
+$entry-meta--font-size: 14px;
+$entry-header__entry-meta--font-size: 14px;
+$entry-footer__entry-meta--font-size: 12px;
 
 // Elements
 $blockquote--font-size: 30px;
@@ -65,8 +65,7 @@ $featured-content__entry-title--font-size: 16px;
 $sidebar--font-size: 16px;
 
 // Plugins
-$soliloquy--font-family: $font-family--raleway;
-$soliloquy--font-size: 20px;
+
 
 // Comments
 $comments--font-size: 16px;
@@ -76,7 +75,10 @@ $breadcrumb--font-size: 16px;
 $author-box__title--font-size: 20px;
 $author-box--font-size: 18px;
 $after-entry--font-size: 18px;
-$archive-title--font-size: 20px;
+$archive-title--font-size: $h1--font-size;
 $archive-description--font-size: 18px;
 $caption--font-size: 14px;
+$related-posts--h3--font-size: 20px;
+$related-posts--li-a--font-size: 16px;
+
 

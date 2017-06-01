@@ -9,41 +9,15 @@
   padding: 60px 0;
 }
 
-.footer-widgets-1,
-.footer-widgets-2,
-.footer-widgets-3 {
-  width: $footer-widgets--width;
-
-  @media only screen and (max-width: 1340px) {
-    width: $footer-widgets--width--larger-screen;
-  }
-  @media only screen and (max-width: 1200px) {
-    width: $footer-widgets--width--large-screen;
-  }
-    @include media( $breakpoint__screen-size--medium ) {
-    width: 100%;
-  }
+.footer-widget-area {
+  border: 1px solid $footer-widgets--border-color;
+  padding: 10px;
 }
 
-.footer-widgets-1 {
-  margin-right: 70px;
-
-  @media only screen and (max-width: 1340px) {
-    margin-right: 60px;
-  }
-  @media only screen and (max-width: 1200px) {
-    margin-right: 30px;
-  }
-}
-
-.footer-widgets-1,
-.footer-widgets-2 {
+.popular-recipes {
   float: left;
-    @include media( $breakpoint__screen-size--medium ) {
-    margin: 0 auto 40px;
+  width: 25%;
+  h4.entry-title {
+    font-size: $footer-widget--font-size;
   }
-}
-
-.footer-widgets-3 {
-  float: right;
 }
