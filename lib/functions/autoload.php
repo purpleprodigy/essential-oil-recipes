@@ -27,7 +27,7 @@ function load_nonadmin_files() {
 		'functions/favicon.php',
 		'functions/related-posts.php',
 //		'functions/markup.php',
-//		'structure/archive.php',
+		'structure/archive.php',
 		'structure/comments.php',
 		'structure/footer.php',
 //		'structure/header.php',

@@ -102,3 +102,16 @@ li.cart_item.edd-cart-meta.edd_total, li.cart_item.edd_checkout {
 .entry-content ul > li.edd-cart-item {
   margin-left: 20px;
 }
+
+span.edd-description {
+  font-size: $edd-description--font-size;
+}
+
+#edd_checkout_form_wrap span.edd-required-indicator {
+  color: $red;
+  display: inline;
+}
+#edd_checkout_form_wrap label {
+  display: block;
+  line-height: 100%;
+}

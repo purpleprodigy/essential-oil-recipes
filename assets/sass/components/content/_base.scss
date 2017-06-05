@@ -6,6 +6,7 @@
   background-color: $entry--background-color;
   margin-bottom: 30px;
   padding: 0;
+  border-bottom: 1px solid $blue;
 
     @include media( $breakpoint__screen-size--small ) {
     padding: 30px;
