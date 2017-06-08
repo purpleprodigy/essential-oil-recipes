@@ -29,5 +29,6 @@ function enqueue_assets() {
 		'subMenu'  => __( 'Menu', CHILD_TEXT_DOMAIN ),
 	);
 	wp_localize_script( CHILD_TEXT_DOMAIN . '-responsive-menu', 'developersL10n', $localized_script_args );
+	wp_enqueue_script('pinit-js', '//assets.pinterest.com/js/pinit.js', false, null, true);
 
 }
