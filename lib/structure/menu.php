@@ -43,5 +43,4 @@ function setup_secondary_menu_args( array $args ) {
 	$args['depth'] = 1;
 
 	return $args;
-
 }

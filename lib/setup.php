@@ -70,7 +70,6 @@ function modify_post_info($post_info) {
  */
 function unregister_genesis_callbacks() {
 	unregister_menu_callbacks();
-	//unregister_post_callbacks();
 }
 
 /**
@@ -93,11 +92,9 @@ function add_theme_supports () {
 		),
 		'genesis-responsive-viewport' => null,
 		'custom-background' => null,
-		//'genesis-after-entry-widget-area' => null,
 		'genesis-footer-widgets' => 1,
 		'genesis-menus' => array(
-			'primary'   => __( 'After Header Menu', CHILD_TEXT_DOMAIN ),
-		//	'secondary' => __( 'Footer Menu', CHILD_TEXT_DOMAIN )
+			'primary'   => __( 'After Header Menu', CHILD_TEXT_DOMAIN )
 		)
 	);
 	foreach ( $config as $feature => $args ) {

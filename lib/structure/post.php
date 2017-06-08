@@ -53,6 +53,7 @@ function single_page_featured_image() {
 
 }
 
+add_filter( 'genesis_entry_content', __NAMESPACE__ . '\add_google_adsense' );
 /**
  * Add adsense to pages, posts and search page.
  *
@@ -60,8 +61,6 @@ function single_page_featured_image() {
  *
  * @return void
  */
-add_filter( 'genesis_entry_content', __NAMESPACE__ . '\add_google_adsense' );
-
 function add_google_adsense() {
 	if ( is_category( 'downloads' ) || is_category( '1' ) || is_page( array( '1249', '1250', '1251', '1252' ) ) ) {
 		return;

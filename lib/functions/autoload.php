@@ -22,17 +22,13 @@ function load_nonadmin_files() {
 		'setup.php',
 		'components/customizer/css-handler.php',
 		'components/customizer/helpers.php',
-//		'functions/formatting.php',
 		'functions/enqueue-assets.php',
 		'functions/favicon.php',
-//		'functions/markup.php',
 		'structure/archive.php',
 		'structure/comments.php',
 		'structure/footer.php',
-//		'structure/header.php',
 		'structure/menu.php',
 		'structure/post.php',
-//		'structure/sidebar.php',
 		'widgets/widget-areas.php',
 		'functions/related-posts.php'
 	);

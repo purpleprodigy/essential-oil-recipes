@@ -10,7 +10,15 @@
  */
 namespace EssentialOilRecipes;
 
-//* Add Favicon
+add_action( 'wp_head', __NAMESPACE__ . '\pp_favicon' );
+remove_action( 'wp_head', 'genesis_load_favicon' );
+/**
+ * Add favicon
+ *
+ * @since 1.0.0
+ *
+ * @return void
+ */
 function pp_favicon() {?>
 	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/apple-touch-icon-152x152.png">
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/apple-touch-icon-144x144.png">
@@ -23,5 +31,3 @@ function pp_favicon() {?>
 	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/favicon.ico">
 	<?php
 }
-add_action( 'wp_head', __NAMESPACE__ . '\pp_favicon' );
-remove_action( 'wp_head', 'genesis_load_favicon' );
