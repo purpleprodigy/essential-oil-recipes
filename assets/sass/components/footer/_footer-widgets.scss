@@ -12,6 +12,10 @@
 .footer-widget-area {
   border: 1px solid $footer-widgets--border-color;
   padding: 10px;
+
+  .widget {
+    margin-bottom: 10px;
+  }
 }
 
 .popular-recipes {
