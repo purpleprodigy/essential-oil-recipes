@@ -19,7 +19,7 @@ add_action( 'genesis_entry_header', __NAMESPACE__ . '\single_post_featured_image
  * @return void
  */
 function single_post_featured_image() {
-	if ( is_single( array( '878', '871', '839', '110' ) ) ) {
+	if ( is_single( array( '878', '871', '839' ) ) ) {
 		return;
 	} elseif ( ! is_singular( 'post' ) ) {
 		return;
@@ -41,9 +41,7 @@ add_action( 'genesis_entry_header', __NAMESPACE__ . '\single_page_featured_image
  * @return void
  */
 function single_page_featured_image() {
-	if ( is_page( '110' ) ) {
-		return;
-	} elseif ( ! is_singular( 'page' ) ) {
+	if ( ! is_singular( 'page' ) ) {
 		return;
 	}
 	$img = genesis_get_image( array(
