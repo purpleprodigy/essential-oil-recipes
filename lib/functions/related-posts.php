@@ -19,7 +19,7 @@ add_action( 'genesis_after_entry_content', __NAMESPACE__ . '\add_related_posts_f
  * @return void
  */
 function add_related_posts_feature_to_blog() {
-	if ( is_category( '1' ) ) {
+	if ( is_category( array('1', '134', '135', '136', '137', '138', '139' ) ) ) {
 		return;
 	} elseif (in_category( '1' )) {
 		global $post;

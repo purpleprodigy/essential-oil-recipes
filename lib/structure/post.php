@@ -56,6 +56,7 @@ function single_page_featured_image() {
 add_filter( 'genesis_entry_content', __NAMESPACE__ . '\add_google_adsense' );
 /**
  * Add adsense to pages, posts and search page.
+ * Hide on downloads, category pages and cart pages.
  *
  * @since 1.0.0
  *
