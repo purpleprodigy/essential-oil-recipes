@@ -63,7 +63,7 @@ add_filter( 'genesis_entry_content', __NAMESPACE__ . '\add_google_adsense' );
  * @return void
  */
 function add_google_adsense() {
-	if ( is_category( 'downloads' ) || is_category( array('1', '134', '135', '136', '137', '138', '139' ) ) || is_page( array( '1249', '1250', '1251', '1252' ) ) ) {
+	if ( is_category( 'downloads' ) || is_category( array('1', '134', '135', '136', '137', '138', '139' ) ) || is_tag() || is_page( array( '1249', '1250', '1251', '1252' ) ) ) {
 		return;
 	} elseif ( is_page() || in_category( '1' ) || is_search() ) { ?>
         <!--        <div class="adsense">-->
