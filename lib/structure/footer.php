@@ -20,6 +20,6 @@ add_filter( 'genesis_footer_creds_text', __NAMESPACE__ . '\pp_footer_creds_filte
  * @return string
  */
 function pp_footer_creds_filter( $creds ) {
-	$creds = 'Copyright [footer_copyright] <a href="https://www.essential-oil-recipes.com/">Essential Oil Recipes</a> &middot; <a href="/contact/">Contact</a> &middot; <a href="/sitemap/" rel="nofollow">Sitemap</a> &middot; <a href="/privacy/" rel="nofollow">Privacy</a> &middot; Website by <a href="https://purpleprodigy.com/">Purple Prodigy</a>';
+	$creds = 'Copyright [footer_copyright] <a href="https://essential-oil-recipes.com/">Essential Oil Recipes</a> &middot; <a href="https://essential-oil-recipes.com/contact/">Contact</a> &middot; <a href="https://essential-oil-recipes.com/sitemap/" rel="nofollow">Sitemap</a> &middot; <a href="https://essential-oil-recipes.com/privacy/" rel="nofollow">Privacy</a> &middot; Website by <a href="https://purpleprodigy.com/">Purple Prodigy</a>';
 	return $creds;
 }
