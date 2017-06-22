@@ -66,19 +66,19 @@ function add_google_adsense() {
 	if ( is_category( 'downloads' ) || is_category( array('1', '134', '135', '136', '137', '138', '139' ) ) || is_tag() || is_page( array( '1249', '1250', '1251', '1252' ) ) ) {
 		return;
 	} elseif ( is_page() || in_category( '1' ) || is_search() ) { ?>
-        <!--        <div class="adsense">-->
-        <!--            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
-        <!--            <!-- 300x250, created 10/8/10 EOR -->-->
-        <!--            <ins class="adsbygoogle"-->
-        <!--                 style="display:inline-block;width:300px;height:250px"-->
-        <!--                 data-ad-client="ca-pub-5283332689335671"-->
-        <!--                 data-ad-slot="7778000632"></ins>-->
-        <!--            <script>-->
-        <!--				(-->
-        <!--					adsbygoogle = window.adsbygoogle || []-->
-        <!--				).push( {} );-->
-        <!--            </script>-->
-        <!--        </div>-->
+                <div class="adsense">
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- 300x250, created 10/8/10 EOR -->
+                    <ins class="adsbygoogle"
+                         style="display:inline-block;width:300px;height:250px"
+                         data-ad-client="ca-pub-5283332689335671"
+                         data-ad-slot="7778000632"></ins>
+                    <script>
+        				(
+        					adsbygoogle = window.adsbygoogle || []
+        				).push( {} );
+                    </script>
+                </div>
 		<?php
 	}
 }
