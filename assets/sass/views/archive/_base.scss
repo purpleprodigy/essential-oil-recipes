@@ -6,7 +6,5 @@
 .archive-title {
   @include rem(font-size, $archive-title--font-size );
   margin-bottom: 40px;
-  @include media( $breakpoint__screen-size--small ) {
-    text-align: center;
-  }
+  text-align: center;
 }
