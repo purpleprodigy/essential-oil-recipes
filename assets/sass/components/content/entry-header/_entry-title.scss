@@ -13,4 +13,8 @@
       color: $entry-title--hover-color;
     }
   }
+  @include media( $breakpoint__screen-size--small ) {
+    text-align: center;
+    font-size: $entry-title--font-size--mobile;
+  }
 }
