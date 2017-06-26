@@ -8,6 +8,5 @@
   margin-bottom: 40px;
   @include media( $breakpoint__screen-size--small ) {
     text-align: center;
-    font-size: $archive-title--font-size--mobile;
   }
 }
