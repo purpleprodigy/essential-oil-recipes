@@ -1,0 +1,9 @@
+//
+// Simple Social Icons
+//======================================
+
+.simple-social-icons {
+  @include media($breakpoint__screen-size--small) {
+    margin-bottom: 0;
+  }
+}
