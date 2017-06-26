@@ -9,8 +9,8 @@
 }
 
 h1.archive-title {
- // @include media($breakpoint__screen-size--small) {
+  @include media($breakpoint__screen-size--small) {
     font-size: $archive-title--font-size--mobile;
     text-align: center;
- // }
+  }
 }
