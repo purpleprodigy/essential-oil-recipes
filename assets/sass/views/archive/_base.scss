@@ -4,7 +4,13 @@
 
 .archive-description .entry-title,
 .archive-title {
-  @include rem(font-size, $archive-title--font-size );
+  @include rem(font-size, $archive-title--font-size);
   margin-bottom: 40px;
-  text-align: center;
+}
+
+h1.archive-title {
+  @include media($breakpoint__screen-size--small) {
+    font-size: $archive-title--font-size--mobile;
+    text-align: center;
+  }
 }
