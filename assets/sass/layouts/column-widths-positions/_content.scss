@@ -8,6 +8,7 @@
 
   @include media( $breakpoint__screen-size--larger ) {
     width: $content--width--larger-screen;
+    padding-right: 30px;
 
   }
   @include media( $breakpoint__screen-size--large ) {
